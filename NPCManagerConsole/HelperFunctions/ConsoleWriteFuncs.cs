@@ -26,6 +26,8 @@ public class ConsoleWriteFuncs
         Console.WriteLine("Type the displayed numbers below, to choose what to do \n");
         
         // Options
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Exit program - 0");
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Create NPC - 1");
         Console.ForegroundColor = ConsoleColor.Cyan;
