@@ -23,7 +23,7 @@ public class ConsoleWriteFuncs
         // Greet message
         Console.ResetColor();
         Console.WriteLine("\nThis program can be used to manage your NPCs and create them");
-        Console.WriteLine("Type the displayed numbers below, to choose what to do \n");
+        Console.WriteLine("Type the displayed numbers below, to choose what to do");
         
         // Options
         Console.ForegroundColor = ConsoleColor.Red;
@@ -32,12 +32,12 @@ public class ConsoleWriteFuncs
         Console.WriteLine("Create NPC - 1");
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("Show List of NPCs - 2");
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("Show details of an NPC - 3");
-        Console.ForegroundColor = ConsoleColor.DarkMagenta;
-        Console.WriteLine("Edit an NPC - 4");
         Console.ForegroundColor = ConsoleColor.DarkBlue;
-        Console.WriteLine("Show information of every NPC - 5");
+        Console.WriteLine("Show list with info and stats for every NPC - 3");
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("Show details of an NPC - 4");
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.WriteLine("Edit an NPC - 5");
         Console.ResetColor();
     }
 }
