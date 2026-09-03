@@ -23,7 +23,7 @@ public class ConsoleWriteFuncs
         // Greet message
         Console.ResetColor();
         Console.WriteLine("\nThis program can be used to manage your NPCs and create them");
-        Console.WriteLine("Type the displayed numbers below, to choose what to do \n");
+        Console.WriteLine("Type the displayed numbers below, to choose what to do");
         
         // Options
         Console.ForegroundColor = ConsoleColor.Red;
