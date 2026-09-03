@@ -14,6 +14,7 @@ public class NPCCreator
     // And returns the NPC object with the new values
     private void InputNPCInfo()
     {
+        Console.Clear();
         Console.WriteLine("Enter NPC Info. \nLeave any fields blank if they are not needed");
         
         // NPC Info
@@ -56,7 +57,4 @@ public class NPCCreator
         string jsonFile = JsonSerializer.Serialize(npcs, serializerOptions);
         File.WriteAllText("npcs.json", jsonFile);
     }
-    
-    
-    
 }
