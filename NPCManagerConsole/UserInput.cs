@@ -34,6 +34,15 @@ public class UserInput
                 Console.Clear();
                 continue;
             }
+            if (userInput == "3")
+            {
+                npcListShow.ShowAllNPCsDetailed();
+                Console.WriteLine("\nPress any key to continue...");
+                Console.ReadKey();
+                userInput = string.Empty;
+                Console.Clear();
+                continue;
+            }
             
             // Asks the user again to type the option they want to choose
             consoleWriteFuncs.WelcomeMessage();
