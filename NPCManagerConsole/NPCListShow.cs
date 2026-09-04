@@ -12,7 +12,7 @@ public class NPCListShow
         
         // Clears the console and shows how many NPCs there are
         Console.Clear();
-        Console.WriteLine($"Amount of NPCs {npcs.Count}");
+        Console.WriteLine($"Amount of NPCs: {npcs.Count}");
         
         // Shows all the NPCs names
         foreach (NPC npc in npcs)
